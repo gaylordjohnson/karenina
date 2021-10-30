@@ -1,7 +1,13 @@
 import string
+import sys
 
-INPUT_FILE_NAME = 'anna_karenina_en.txt'
-COLUMN_WIDTH = 30
+COLUMN_WIDTH = 40
+
+def get_input_filename():
+  if len(sys.argv) != 2:
+    print("Usage: python3 %s <input file name>" % sys.argv[0])
+    exit()
+  return sys.argv[1]
 
 def populate_word_list(input_file_name):
   words = []
@@ -85,7 +91,7 @@ def print_histograms(hist):
     print(formatted_str1 + formatted_str2 + formatted_str3)
 
 ############################## MAIN ##############################
-word_list = populate_word_list(INPUT_FILE_NAME)
+word_list = populate_word_list(get_input_filename())
 hist = create_frequency_histogram(word_list)
 print_stats(word_list, hist)
 print_histograms(hist)
