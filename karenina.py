@@ -73,7 +73,7 @@ def print_histograms(hist):
   keys_by_alpha = sorted(hist.keys())
   
   heading1 = 'Sorted by word length'
-  heading2 = 'Sorted by word count'
+  heading2 = 'Sorted by word frequency'
   heading3 = 'Sorted alphabetically'
   print(heading1 + ' ' * (COLUMN_WIDTH - len(heading1)) 
       + heading2 + ' ' * (COLUMN_WIDTH - len(heading2)) 
