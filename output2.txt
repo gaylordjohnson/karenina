@@ -1,0 +1,92 @@
+121 words, 659 characters, 86 unique words, 22 unique characters
+Overall: 5.4 avg word length, 5 median word length ('nulla'), 9 p90 word length ('hendrerit')
+Unique words: 5.7 avg word length, 5 median word length ('round'), 9 p90 word length ('malesuada')
+
+Words by length               Words by frequency            Words sorted alphabetically   Character frequencies
+---------------               ------------------            ---------------------------   ---------------------
+sollicitudin 1                nulla 4                       a                             u 64
+pellentesque 1                non 4                         ac                            i 61
+consectetur 2                 in 4                          adipiscing                    e 58
+suspendisse 1                 to 3                          aliquam                       l 53
+ullamcorper 1                 diam 3                        amet                          s 53
+adipiscing 1                  hello 2                       ante                          a 51
+beautiful 1                   consectetur 2                 beautiful                     n 46
+malesuada 1                   enim 2                        blue                          t 45
+efficitur 1                   dapibus 2                     consectetur                   o 39
+hendrerit 2                   quam 2                        consequat                     r 39
+tincidunt 1                   turpis 2                      convallis                     c 29
+imperdiet 2                   sed 2                         curabitur                     m 27
+consequat 1                   volutpat 2                    cursus                        d 24
+convallis 2                   leo 2                         dapibus                       p 19
+curabitur 1                   cursus 2                      depths                        h 11
+volutpat 2                    eu 2                          diam                          v 11
+pharetra 1                    hendrerit 2                   dolor                         b 8
+placerat 1                    mauris 2                      dui                           q 7
+suscipit 1                    luctus 2                      duis                          g 6
+vehicula 1                    nisl 2                        efficitur                     f 5
+faucibus 1                    velit 2                       eget                          w 2
+squares 1                     risus 2                       elit                          y 1
+dapibus 2                     imperdiet 2                   enim                          
+gravida 1                     magna 2                       est                           
+vivamus 1                     ac 2                          eu                            
+aliquam 1                     convallis 2                   faucibus                      
+pretium 1                     rhoncus 2                     from                          
+laoreet 1                     beautiful 1                   go                            
+rhoncus 2                     world 1                       gravida                       
+depths 1                      you 1                         hello                         
+turpis 2                      from 1                        hendrerit                     
+cursus 2                      those 1                       imperdiet                     
+libero 1                      who 1                         in                            
+mauris 2                      round 1                       ipsum                         
+luctus 2                      squares 1                     lacus                         
+mollis 1                      go 1                          laoreet                       
+nullam 1                      blue 1                        lectus                        
+tellus 1                      depths 1                      leo                           
+lectus 1                      lorem 1                       libero                        
+hello 2                       ipsum 1                       lorem                         
+world 1                       dolor 1                       luctus                        
+those 1                       sit 1                         magna                         
+round 1                       amet 1                        malesuada                     
+lorem 1                       adipiscing 1                  mauris                        
+ipsum 1                       elit 1                        metus                         
+dolor 1                       quis 1                        mollis                        
+nulla 4                       malesuada 1                   morbi                         
+metus 1                       vel 1                         nam                           
+lacus 1                       sollicitudin 1                nec                           
+velit 2                       suspendisse 1                 nisl                          
+risus 2                       odio 1                        non                           
+magna 2                       efficitur 1                   nulla                         
+proin 1                       gravida 1                     nullam                        
+morbi 1                       vivamus 1                     nunc                          
+from 1                        libero 1                      odio                          
+blue 1                        pellentesque 1                pellentesque                  
+amet 1                        tincidunt 1                   pharetra                      
+elit 1                        pharetra 1                    placerat                      
+quis 1                        metus 1                       pretium                       
+enim 2                        duis 1                        proin                         
+quam 2                        lacus 1                       quam                          
+diam 3                        aliquam 1                     quis                          
+odio 1                        placerat 1                    rhoncus                       
+duis 1                        pretium 1                     risus                         
+nisl 2                        nunc 1                        round                         
+nunc 1                        est 1                         sed                           
+eget 1                        eget 1                        sit                           
+urna 1                        consequat 1                   sollicitudin                  
+ante 1                        laoreet 1                     squares                       
+you 1                         proin 1                       suscipit                      
+who 1                         suscipit 1                    suspendisse                   
+sit 1                         dui 1                         tellus                        
+vel 1                         urna 1                        those                         
+sed 2                         mollis 1                      tincidunt                     
+non 4                         nullam 1                      to                            
+leo 2                         ante 1                        turpis                        
+est 1                         vehicula 1                    ullamcorper                   
+dui 1                         tellus 1                      urna                          
+nec 1                         nec 1                         vehicula                      
+nam 1                         curabitur 1                   vel                           
+to 3                          nam 1                         velit                         
+go 1                          faucibus 1                    vivamus                       
+eu 2                          a 1                           volutpat                      
+in 4                          ullamcorper 1                 who                           
+ac 2                          morbi 1                       world                         
+a 1                           lectus 1                      you                           
