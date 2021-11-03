@@ -1,11 +1,11 @@
 import string
 import sys
 
-COLUMN_WIDTH = 30
+COLUMN_WIDTH = 35
 
 def get_input_filename():
   if len(sys.argv) != 2:
-    print("Usage: python3 %s <input file name>" % sys.argv[0])
+    print('Usage: python3 %s <input file name>' % sys.argv[0])
     exit()
   return sys.argv[1]
 
@@ -19,10 +19,10 @@ def populate_word_list(input_file_name):
           words.append(word)
   return words
 
-def create_histograms(word_list):
+def create_histograms(words):
   word_hist = {}
   char_hist = {}
-  for word in word_list:
+  for word in words:
     if word in word_hist:
       word_hist[word] += 1
     else:
@@ -36,19 +36,19 @@ def create_histograms(word_list):
 
   return word_hist, char_hist
 
-def print_stats(word_list, word_hist, char_hist):
+def print_stats(words, word_hist, char_hist):
   # Num words, characters, unique words
   n_chars = 0
-  for word in word_list:
+  for word in words:
     n_chars += len(word)
 
   # Needed for median and pN calculations
-  sorted_words = sorted(word_list, key=lambda x: len(x))
+  sorted_words = sorted(words, key=lambda x: len(x))
 
-  print('%d words, %d characters, %d unique words, %d unique characters' % (len(word_list), n_chars, 
+  print('%d words, %d characters, %d unique words, %d unique characters' % (len(words), n_chars, 
     len(word_hist), len(char_hist)))
   print('Overall: %.1f avg word length, %d median word length (\'%s\'), %d p90 word length (\'%s\')' 
-    % (n_chars/len(word_list), 
+    % (n_chars/len(words), 
        len(sorted_words[int(len(sorted_words) * 0.5)-1]), 
        sorted_words[int(len(sorted_words) * 0.5)-1],
        len(sorted_words[int(len(sorted_words) * 0.9)-1]), 
@@ -76,6 +76,7 @@ def print_histograms(word_hist, char_hist):
         - histogram of word counts sorted by word length
         - histogram of word counts sorted by word count
         - list of unique words in alphabetical order
+        - histogram of character frequencies
   """
   words_by_len = sorted(word_hist.keys(), key=lambda x: len(x), reverse=True)
   word_KVs_by_freq = sorted(word_hist.items(), key=lambda x: x[1], reverse=True)
@@ -108,8 +109,14 @@ def print_histograms(word_hist, char_hist):
   for i in range(len(words_by_len), len(char_KVs_by_freq)):
     print(' ' * 3 * COLUMN_WIDTH + '%s %d' % (char_KVs_by_freq[i][0], char_KVs_by_freq[i][1]))
 
+def print_results(filename, words, word_hist, char_hist):
+  print(filename)
+  print('-' * len(filename))
+  print_stats(words, word_hist, char_hist)
+  print_histograms(word_hist, char_hist)
+
 ############################## MAIN ##############################
-word_list = populate_word_list(get_input_filename())
-word_hist, char_hist = create_histograms(word_list)
-print_stats(word_list, word_hist, char_hist)
-print_histograms(word_hist, char_hist)
+input_filename = get_input_filename()
+words = populate_word_list(input_filename)
+word_hist, char_hist = create_histograms(words)
+print_results(input_filename, words, word_hist, char_hist)
