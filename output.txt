@@ -1,57 +1,57 @@
 anna_karenina_en.txt
 --------------------
-350276 words, 1531808 characters, 13593 unique words, 53 unique characters
+350,276 words, 1,531,808 characters, 13,593 unique words, 53 unique characters
 Overall: 4.4 avg word length, 4 median word length ('only'), 8 p90 word length ('external')
 Unique words: 7.6 avg word length, 7 median word length ('shouted'), 11 p90 word length ('speculators')
 
 Words by length                    Words by frequency                 Words sorted alphabetically        Character frequencies
 ---------------                    ------------------                 ---------------------------        ---------------------
-religiously-patriotic 1            the 17556                          1                                  e 184953
-self-dissatisfaction 2             and 12898                          10                                 t 140242
-ivanov-strauss-renan 1             to 10146                           11                                 a 123838
-good-humored-looking 1             of 8612                            12                                 o 113838
-disreputable-looking 1             he 7535                            13                                 n 110269
-conscience-stricken 1              a 6156                             14                                 i 109119
-transparent-looking 1              in 5949                            15                                 h 106207
-ristitch-kudzhitsky 1              was 5308                           16                                 s 97870
-straightforwardness 2              his 5240                           17                                 r 79363
-pretentious-looking 1              that 5204                          17,015                             d 68465
-comfortable-looking 1              her 5089                           17th                               l 60614
-pseudo-matrimonial 1               she 4287                           18                                 u 39623
-conciliation-board 1               it 3925                            18,038                             w 37024
-commander-in-chief 1               had 3857                           1863                               m 34169
-self-advertisement 1               with 3751                          1864                               c 33883
-adjutant-generals 1                i 3666                             19                                 g 33241
-sleeping-carriage 1                not 3434                           2                                  y 32040
-shtcherbatskaya’s 2                him 3162                           20                                 f 31098
-contradistinction 1                but 3162                           21                                 p 23484
-light-heartedness 1                you 3013                           22                                 b 21228
-self-satisfaction 1                at 2920                            23                                 v 19952
-non-applicability 1                said 2730                          24                                 k 15401
-misunderstandings 1                for 2712                           25                                 ’ 6443
-different-colored 1                as 2443                            26                                 x 3396
-misinterpretation 1                on 2201                            27                                 - 1569
-swimming-mistress 1                all 1946                           28                                 j 1420
-grotesque-looking 1                be 1778                            29                                 q 1410
-misshapen-looking 1                what 1693                          2nd                                z 1042
-fellow-passengers 1                so 1541                            3                                  1 120
-conscientiousness 1                levin 1517                         30                                 2 99
-dimer-bartnyansky 1                is 1426                            30th                               3 55
-indestructibility 1                this 1364                          31                                 é 42
-non-materialistic 1                from 1307                          32                                 8 28
-fellow-christians 1                up 1306                            33                                 à 27
-carriage-jobbers 1                 have 1272                          34                                 4 26
-fellow-officials 1                 were 1235                          35                                 5 26
-broad-shouldered 3                 one 1162                           36                                 6 26
-alexandrovitch’s 47                no 1144                            4                                  7 25
-misunderstanding 5                 me 1132                            5                                  0 24
-incomprehensible 17                they 1115                          6                                  è 23
-adjutant-general 2                 by 1084                            7                                  9 22
-bread-and-butter 2                 which 1077                         8                                  ï 14
-carriage-springs 1                 been 1062                          9                                  œ 7
-vigorous-looking 1                 would 1048                         a                                  . 7
-schulze-delitsch 1                 out 1024                           a-oo                               ê 7
-wrathful-looking 1                 there 1019                         abandon                            æ 6
+religiously-patriotic 1            the 17,556                         1                                  e 184,953
+self-dissatisfaction 2             and 12,898                         10                                 t 140,242
+ivanov-strauss-renan 1             to 10,146                          11                                 a 123,838
+good-humored-looking 1             of 8,612                           12                                 o 113,838
+disreputable-looking 1             he 7,535                           13                                 n 110,269
+conscience-stricken 1              a 6,156                            14                                 i 109,119
+transparent-looking 1              in 5,949                           15                                 h 106,207
+ristitch-kudzhitsky 1              was 5,308                          16                                 s 97,870
+straightforwardness 2              his 5,240                          17                                 r 79,363
+pretentious-looking 1              that 5,204                         17,015                             d 68,465
+comfortable-looking 1              her 5,089                          17th                               l 60,614
+pseudo-matrimonial 1               she 4,287                          18                                 u 39,623
+conciliation-board 1               it 3,925                           18,038                             w 37,024
+commander-in-chief 1               had 3,857                          1863                               m 34,169
+self-advertisement 1               with 3,751                         1864                               c 33,883
+adjutant-generals 1                i 3,666                            19                                 g 33,241
+sleeping-carriage 1                not 3,434                          2                                  y 32,040
+shtcherbatskaya’s 2                him 3,162                          20                                 f 31,098
+contradistinction 1                but 3,162                          21                                 p 23,484
+light-heartedness 1                you 3,013                          22                                 b 21,228
+self-satisfaction 1                at 2,920                           23                                 v 19,952
+non-applicability 1                said 2,730                         24                                 k 15,401
+misunderstandings 1                for 2,712                          25                                 ’ 6,443
+different-colored 1                as 2,443                           26                                 x 3,396
+misinterpretation 1                on 2,201                           27                                 - 1,569
+swimming-mistress 1                all 1,946                          28                                 j 1,420
+grotesque-looking 1                be 1,778                           29                                 q 1,410
+misshapen-looking 1                what 1,693                         2nd                                z 1,042
+fellow-passengers 1                so 1,541                           3                                  1 120
+conscientiousness 1                levin 1,517                        30                                 2 99
+dimer-bartnyansky 1                is 1,426                           30th                               3 55
+indestructibility 1                this 1,364                         31                                 é 42
+non-materialistic 1                from 1,307                         32                                 8 28
+fellow-christians 1                up 1,306                           33                                 à 27
+carriage-jobbers 1                 have 1,272                         34                                 4 26
+fellow-officials 1                 were 1,235                         35                                 5 26
+broad-shouldered 3                 one 1,162                          36                                 6 26
+alexandrovitch’s 47                no 1,144                           4                                  7 25
+misunderstanding 5                 me 1,132                           5                                  0 24
+incomprehensible 17                they 1,115                         6                                  è 23
+adjutant-general 2                 by 1,084                           7                                  9 22
+bread-and-butter 2                 which 1,077                        8                                  ï 14
+carriage-springs 1                 been 1,062                         9                                  œ 7
+vigorous-looking 1                 would 1,048                        a                                  . 7
+schulze-delitsch 1                 out 1,024                          a-oo                               ê 7
+wrathful-looking 1                 there 1,019                        abandon                            æ 6
 governor-general 1                 could 971                          abandoned                          ü 5
 misappropriation 1                 when 950                           abandonment                        ç 5
 feverish-looking 1                 did 938                            abasement                          ô 5
@@ -10666,7 +10666,7 @@ house 197                          tabula 1                           shoes
 their 703                          rasa 1                             shone                              
 could 971                          communist 1                        shook                              
 three 155                          metayers 1                         shoot                              
-there 1019                         productively 1                     shooting                           
+there 1,019                        productively 1                     shooting                           
 sense 103                          exploiting 1                       shooting-boots                     
 stray 7                            gushed 1                           shoots                             
 leave 85                           enduring 1                         shop                               
@@ -10679,7 +10679,7 @@ usual 59                           nations 1                          shore
 eight 31                           spain 1                            short                              
 study 65                           indulged 1                         short-cropped                      
 stout 13                           serenades 1                        shortcomings                       
-would 1048                         mandolin 1                         shortly                            
+would 1,048                        mandolin 1                         shortly                            
 sleep 64                           pheasants 1                        shot                               
 again 444                          harem 1                            shots                              
 other 358                          elephant 1                         should                             
@@ -10718,7 +10718,7 @@ ideas 81                           steeped 1                          shrug
 still 428                          grotesque 1                        shrugged                           
 asked 320                          release 1                          shrugging                          
 often 103                          battre 1                           shrunk                             
-which 1077                         fer 1                              shtcherbatskaya                    
+which 1,077                        fer 1                              shtcherbatskaya                    
 being 258                          broyer 1                           shtcherbatskaya’s                  
 sight 79                           pétrir 1                           shtcherbatsky                      
 broke 31                           childbirth 1                       shtcherbatskys                     
@@ -10925,7 +10925,7 @@ built 10                           presiding 1                        slightly
 beard 17                           juryman 1                          slim                               
 stone 11                           legitimately 1                     slime                              
 above 67                           comical 1                          slime-covered                      
-levin 1517                         negroes 1                          sling                              
+levin 1,517                        negroes 1                          sling                              
 shyly 4                            unhappily 1                        slip                               
 let’s 42                           exploded 1                         slipped                            
 along 115                          suckle 1                           slippers                           
@@ -12177,19 +12177,19 @@ crest 1                            sinner 1                           tin
 milky 2                            irresolutely 1                     tingled                            
 part 138                           cleaner 1                          tinier                             
 wife 367                           fragment 1                         tiniest                            
-that 5204                          smashing 1                         tinkle                             
-with 3751                          put-to 1                           tinplate                           
+that 5,204                         smashing 1                         tinkle                             
+with 3,751                         put-to 1                           tinplate                           
 girl 108                           irritate 1                         tintoretto                         
-been 1062                          guest’s 1                          tiny                               
+been 1,062                         guest’s 1                          tiny                               
 same 447                           distressing 1                      tip                                
-this 1364                          peut 1                             tipping                            
+this 1,364                         peut 1                             tipping                            
 days 116                           être 1                             tips                               
 only 652                           jaloux 1                           tipsy                              
-were 1235                          ceremonious 1                      tiptoe                             
+were 1,235                         ceremonious 1                      tiptoe                             
 felt 555                           dismissal 1                        tire                               
 more 743                           inherited 1                        tired                              
 than 365                           storytelling 1                     tired-looking                      
-they 1115                          relented 1                         tires                              
+they 1,115                         relented 1                         tires                              
 room 294                           hiring 1                           tiresome                           
 home 217                           relays 1                           tis                                
 wild 18                            saddle-horses 1                    tit                                
@@ -12224,7 +12224,7 @@ done 214                           raven-black 1                      tomorrow
 nine 23                            dismounted 1                       tomorrow’s                         
 hand 386                           toadying 1                         ton                                
 hung 14                            sponging 1                         tone                               
-from 1307                          observer 1                         tones                              
+from 1,307                         observer 1                         tones                              
 most 246                           bracing 1                          tongue                             
 it’s 616                           trotter 1                          tongues                            
 kept 100                           promenage 1                        tonight                            
@@ -12234,14 +12234,14 @@ pear 2                             ud 1                               tool
 case 52                            nay 1                              tools                              
 much 309                           midday’s 1                         tooth                              
 fact 114                           inexcusably 1                      toothache                          
-what 1693                          magical 1                          toothless                          
+what 1,693                         magical 1                          toothless                          
 does 113                           acacia 1                           top                                
 hurt 28                            interpreting 1                     top-boots                          
-have 1272                          park 1                             topic                              
+have 1,272                         park 1                             topic                              
 fond 42                            reckons 1                          topics                             
 pain 28                            meadowland 1                       topmost                            
 heat 18                            petitesse 1                        topov                              
-said 2730                          involuntary 1                      tops                               
+said 2,730                         involuntary 1                      tops                               
 date 5                             different-colored 1                topsy-turvy                        
 love 434                           greens 1                           toqué                              
 five 63                            strewn 1                           tore                               
@@ -13182,33 +13182,33 @@ wars 1                             purse 1                            wearily
 karr 1                             star-shaped 1                      weariness                          
 glib 1                             top-boots 1                        wearing                            
 gust 1                             springiness 1                      wearisome                          
-one 1162                           slammed 1                          weary                              
+one 1,162                          slammed 1                          weary                              
 are 622                            latch 1                            weather                            
-all 1946                           grotesque-looking 1                wedding                            
+all 1,946                          grotesque-looking 1                wedding                            
 its 205                            tante 1                            wedlock                            
 own 359                            misshapen-looking 1                wednesday                          
 way 316                            fellow-passengers 1                wee                                
-was 5308                           surreptitiously 1                  weed                               
-the 17556                          inane 1                            weeding                            
-had 3857                           monstrosities 1                    weeds                              
+was 5,308                          surreptitiously 1                  weed                               
+the 17,556                         inane 1                            weeding                            
+had 3,857                          monstrosities 1                    weeds                              
 who 786                            attaches 1                         week                               
-and 12898                          junctions 1                        week-days                          
-she 4287                           signal-box 1                       weeks                              
-her 5089                           clang 1                            week’s                             
-not 3434                           breeze 1                           weep                               
-him 3162                           lisping 1                          weeping                            
+and 12,898                         junctions 1                        week-days                          
+she 4,287                          signal-box 1                       weeks                              
+her 5,089                          clang 1                            week’s                             
+not 3,434                          breeze 1                           weep                               
+him 3,162                          lisping 1                          weeping                            
 now 873                            red-cheeked 1                      weibliche                          
-but 3162                           crannies 1                         weigh                              
+but 3,162                          crannies 1                         weigh                              
 any 244                            sickening 1                        weighed                            
 inn 3                              footboard 1                        weighing                           
 did 938                            lepers 1                           weighs                             
-for 2712                           proffering 1                       weight                             
+for 2,712                          proffering 1                       weight                             
 ran 102                            clacking 1                         weights                            
-out 1024                           dodged 1                           weighty                            
+out 1,024                          dodged 1                           weighty                            
 new 310                            peering 1                          weirdness                          
 off 360                            kvas 1                             welcome                            
 day 309                            tank 1                             welcomed                           
-his 5240                           screws 1                           welfare                            
+his 5,240                          screws 1                           welfare                            
 sat 167                            coal 1                             well                               
 yes 545                            sleepers 1                         well-being                         
 how 799                            terror-stricken 1                  well-bred                          
@@ -13230,7 +13230,7 @@ put 301                            golubtsov’s 1                      well-pai
 air 64                             medley 1                           well-preserved                     
 old 393                            interrogation 1                    well-remembered                    
 sly 8                              wittily 1                          well-swept                         
-you 3013                           disowned 1                         well-to-do                         
+you 3,013                          disowned 1                         well-to-do                         
 leg 20                             scrupulous 1                       well-washed                        
 god 158                            conscientiousness 1                welling                            
 lip 8                              critic’s 1                         wells                              
@@ -13485,29 +13485,29 @@ vie 1                              victorious 1                       wraps
 tub 1                              kolok 1                            wrath                              
 oak 4                              unsafe 1                           wrathful                           
 rim 1                              rushes 1                           wrathful-looking                   
-is 1426                            re-establish 1                     wrathfully                         
-in 5949                            hellebore 1                        wreath                             
-on 2201                            dense 1                            wreathed                           
+is 1,426                           re-establish 1                     wrathfully                         
+in 5,949                           hellebore 1                        wreath                             
+on 2,201                           dense 1                            wreathed                           
 an 790                             stumps 1                           wreck                              
-to 10146                           regale 1                           wrecking                           
+to 10,146                          regale 1                           wrecking                           
 go 684                             fenced-in 1                        wretch                             
-of 8612                            bee-garden 1                       wretched                           
-it 3925                            hived 1                            wretchedest                        
-no 1144                            openings 1                         wretchedness                       
-by 1084                            drones 1                           wretches                           
-at 2920                            spoils 1                           wriggling                          
-as 2443                            blaring 1                          wring                              
-he 7535                            drone 1                            wrinkled                           
-up 1306                            protecting 1                       wrinkles                           
-be 1778                            tub 1                              wrinkling                          
+of 8,612                           bee-garden 1                       wretched                           
+it 3,925                           hived 1                            wretchedest                        
+no 1,144                           openings 1                         wretchedness                       
+by 1,084                           drones 1                           wretches                           
+at 2,920                           spoils 1                           wriggling                          
+as 2,443                           blaring 1                          wring                              
+he 7,535                           drone 1                            wrinkled                           
+up 1,306                           protecting 1                       wrinkles                           
+be 1,778                           tub 1                              wrinkling                          
 il 13                              flippantly 1                       wrist                              
 or 541                             overcast 1                         wrists                             
 ah 116                             restricted 1                       write                              
 oo 1                               doling 1                           writer                             
-me 1132                            blunt 1                            writers                            
+me 1,132                           blunt 1                            writers                            
 my 794                             honeycomb 1                        writer’s                           
 oh 352                             kicking 1                          writes                             
-so 1541                            ragozov 1                          writing                            
+so 1,541                           ragozov 1                          writing                            
 do 821                             theory’s 1                         writing-table                      
 if 641                             responsibility 1                   writing-tables                     
 we 452                             wars 1                             written                            
@@ -13576,9 +13576,9 @@ es 2                               sopped 1                           youthful
 zu 2                               unharmed 1                         youthful-looking                   
 vu 1                               thundery 1                         youthfulness                       
 1 9                                rim 1                              youths                             
-a 6156                             houseflies 1                       you’d                              
+a 6,156                            houseflies 1                       you’d                              
 2 9                                reverted 1                         you’ll                             
-i 3666                             disproving 1                       you’re                             
+i 3,666                            disproving 1                       you’re                             
 3 9                                preached 1                         you’ve                             
 4 9                                formulate 1                        yury                               
 5 10                               footstep 1                         zahar                              

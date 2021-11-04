@@ -1,5 +1,6 @@
 import string
 import sys
+import locale
 
 COLUMN_WIDTH = 35
 
@@ -36,6 +37,12 @@ def create_histograms(words):
 
   return word_hist, char_hist
 
+def fmt(int_val):
+  """ Return string representation of an integer, formatted with locale-aware thousands separators.
+    More info: https://stackoverflow.com/questions/1823058/how-to-print-number-with-commas-as-thousands-separators
+  """
+  return locale.format_string('%d', int_val, grouping=True)
+
 def print_stats(words, word_hist, char_hist):
   # Num words, characters, unique words
   n_chars = 0
@@ -45,8 +52,8 @@ def print_stats(words, word_hist, char_hist):
   # Needed for median and pN calculations
   sorted_words = sorted(words, key=lambda x: len(x))
 
-  print('%d words, %d characters, %d unique words, %d unique characters' % (len(words), n_chars, 
-    len(word_hist), len(char_hist)))
+  print('%s words, %s characters, %s unique words, %s unique characters' % ( fmt(len(words)), fmt(n_chars), 
+    fmt(len(word_hist)), fmt(len(char_hist))))
   print('Overall: %.1f avg word length, %d median word length (\'%s\'), %d p90 word length (\'%s\')' 
     % (n_chars/len(words), 
        len(sorted_words[int(len(sorted_words) * 0.5)-1]), 
@@ -97,17 +104,17 @@ def print_histograms(word_hist, char_hist):
       + '-' * len(heading4))
 
   for i in range(len(words_by_len)):
-    formatted_str1 = '%s %d' % (words_by_len[i], word_hist[words_by_len[i]])
+    formatted_str1 = '%s %s' % (words_by_len[i], fmt(word_hist[words_by_len[i]]))
     formatted_str1 = formatted_str1 + ' ' * (COLUMN_WIDTH - len(formatted_str1))
-    formatted_str2 = '%s %d' % (word_KVs_by_freq[i][0], word_KVs_by_freq[i][1])
+    formatted_str2 = '%s %s' % (word_KVs_by_freq[i][0], fmt(word_KVs_by_freq[i][1]))
     formatted_str2 = formatted_str2 + ' ' * (COLUMN_WIDTH - len(formatted_str2))
     formatted_str3 = words_by_alpha[i] + ' ' * (COLUMN_WIDTH - len(words_by_alpha[i]))
-    formatted_str4 = '%s %d' % (char_KVs_by_freq[i][0], char_KVs_by_freq[i][1]) if i < len(char_KVs_by_freq) else ''
+    formatted_str4 = '%s %s' % (char_KVs_by_freq[i][0], fmt(char_KVs_by_freq[i][1])) if i < len(char_KVs_by_freq) else ''
     print(formatted_str1 + formatted_str2 + formatted_str3 + formatted_str4)
 
   # Print remaining char freqs if unique word count is less than unique character count
   for i in range(len(words_by_len), len(char_KVs_by_freq)):
-    print(' ' * 3 * COLUMN_WIDTH + '%s %d' % (char_KVs_by_freq[i][0], char_KVs_by_freq[i][1]))
+    print(' ' * 3 * COLUMN_WIDTH + '%s %s' % (char_KVs_by_freq[i][0], fmt(char_KVs_by_freq[i][1])))
 
 def print_results(filename, words, word_hist, char_hist):
   print(filename)
@@ -116,6 +123,7 @@ def print_results(filename, words, word_hist, char_hist):
   print_histograms(word_hist, char_hist)
 
 ############################## MAIN ##############################
+locale.setlocale(locale.LC_ALL, '') # see https://stackoverflow.com/questions/1823058/how-to-print-number-with-commas-as-thousands-separators
 input_filename = get_input_filename()
 words = populate_word_list(input_filename)
 word_hist, char_hist = create_histograms(words)
